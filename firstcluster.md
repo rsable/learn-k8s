@@ -81,7 +81,7 @@
     NAME                  DESIRED   CURRENT   READY   AGE
     nginxtest-d487d74db   2         2         2       17m
     ```
-    * Similarly you can change other componenets like image version etc.
+    * Similarly you can change other components like image version etc.
 * Creating and accessing a container :
     * Uggh the container crashed.   
     * Understand [CrashLoopBackOff](https://komodor.com/learn/how-to-fix-crashloopbackoff-kubernetes-error/#:~:text=To%20identify%20the%20issue%20you,controller%2Dmanager%20pod%20and%20restart.) :
@@ -184,4 +184,4 @@
   PS G:\K8s> kubectl.exe apply -f deploymentfilename.yaml
   PS G:\K8s> kubectl.exe delete -f deploymentfilename.yaml
   ```
-* Similarly kubectl can be used with services, volumnes etc.
+* Similarly kubectl can be used with services, volumes etc.

@@ -14,4 +14,5 @@
         * In simple terms when a pod is created it is given a *label,(app:myapp)* and when something else, lets say a service, has to look for this pod, the *selector* section of the service will have mentioned a *selector,(app:myapp)* to create the connection with the pod.
     * Each service and pod both will also have its own ports which can be used to access them. 
         * port is the port to access the service.
-        * targetPort is the port of the pod (in service config)and containerPort (in deployment). targetPort shouldbe == containerPort.
+        * targetPort is the port of the pod (in service config)and containerPort (in deployment). targetPort should be == containerPort.
+    * [Secret file configuration](createsecret.md)
