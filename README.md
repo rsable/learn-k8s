@@ -27,7 +27,7 @@ Notes from when I learnt K8s
     * A service could be internal or external.
     * Service also acts as a load balancer between multiple nodes.
     * Ingress is used to manage external access to services or more specifically route traffic into the cluster.
-* **[ConfigMap &](createsecret.md) [Secret :](createsecret.md)**
+* **[ConfigMap &](createsecret.md/#creating-a-configmap) [Secret :](createsecret.md)**
     * ConfigMap is an external easily changeable configuration for the application. Could be a URL to something / DB Url / path. Consider this as a Variable ¯\\_(ツ)_/¯
     * Just like ConfigMap, but to save super super secret stuff use Secret. 
     * Both of these are connected to the pod to be used.

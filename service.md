@@ -11,7 +11,7 @@
     * Default service.
     * Used to communicate between two pods, since the pod IP addresses are ephemeral.
     * Eg : Domain -> Ingress -> Service (has ClusterIP) -> Pod -> DB Service (has ClusterIP) -> DB Pod
-    * All of this happens based on [labels and selectors.](confiunderstanding.md/#labels-and-selectors)
+    * All of this happens based on [labels and selectors.](confiunderstanding.md)
 * **Headless :**
     * In case we want to talk to pods directly.
     * Eg : Pod -> Pod (instead of Pod -> Service -> Pod like above)
