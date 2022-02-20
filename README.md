@@ -42,9 +42,9 @@ Notes from when I learnt K8s
     * Mostly used for stateful applications.
     * Some great explanation [here](cl-oreilly-kubernetes-operators-ebook-f21452-202001-en_2.pdf) and pre-made operators [here.](https://operatorhub.io/)
     * A new operator can be created using [Operator SDK.](https://sdk.operatorframework.io/)
-    * Deploying prometheus using an operator.
 
 ## Ref :
 1. [Understanding the Configuration file.](confiunderstanding.md)
 1. [Helm.](helm.md)
+1. [Deploying prometheus using an operator.](prometheus.md)
 1. [Deploying the first cluster.](firstcluster.md)
