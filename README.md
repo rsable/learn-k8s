@@ -37,8 +37,12 @@ Notes from when I learnt K8s
     * Deployment is the blueprint for pods.
     * Will have details about pod, and other configurational details like number of replicas (Replicaset) etc.
     * StatefulSet is similar to deployment but deployment can not manage stateful applications like database, which have active I/O and can cause data corruption if run though multiple sources. So StatefulSet manages such applications along with other tasks like replication etc. which are done by Deployment.
-
-
+* **Operators :**
+    * An Operator extends Kubernetes to automate the management of the entire life cycle of a particular application. Operators serve as a packaging mechanism for distributing applications on Kubernetes, and they monitor, maintain, recover, and upgrade the software they deploy.
+    * Mostly used for stateful applications.
+    * Some great explanation [here](cl-oreilly-kubernetes-operators-ebook-f21452-202001-en_2.pdf) and pre-made operators [here.](https://operatorhub.io/)
+    * A new operator can be created using [Operator SDK.](https://sdk.operatorframework.io/)
+    * Deploying prometheus using an operator.
 
 ## Ref :
 1. [Understanding the Configuration file.](confiunderstanding.md)
