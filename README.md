@@ -19,7 +19,7 @@ Notes from when I learnt K8s
 * **Node - Pod - Container :**
     * Node could be a baremetal system / virtual host.
     * Pod is an abstraction layer for container i.e. it creates an layer over the container, so that k8s can manage it.
-    * There can be multiple pods on a node and there can be multiple containers in one pod. But usually one pod is limited to one container for simplicity.
+    * There can be multiple pods on a node and there can be multiple containers in one pod. But usually one pod is limited to one container for simplicity and only side-car containers like Prometheus are installed within the same pod.
     * Each pod will have its own IP address, but pods are ephemeral. So we will need a service to manage the IP (╯°□°）╯┻┻
 * **[Service &](service.md) [Ingress :](ingress.md)**
     * Service could be an IP address with a DNS name that is attached to a pod.
