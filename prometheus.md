@@ -37,4 +37,10 @@
     prometheus-kube-state-metrics-64df7c8675-7q8cb           1/1     Running   0          2m17s
     prometheus-prometheus-kube-prometheus-prometheus-0       2/2     Running   0          108s
     prometheus-prometheus-node-exporter-gm76n                1/1     Running   0          2m17s
+    PS G:\K8s\learn-k8s> kubectl get secret --namespace default prometheus-grafana -o jsonpath="{.data.admin-password}"
+    cHJvbS1vcGVyYXRvcg==
+    PS G:\K8s\learn-k8s> kubectl.exe port-forward deployment/prometheus-grafana 3000
+    Forwarding from 127.0.0.1:3000 -> 3000
+    Forwarding from [::1]:3000 -> 3000
+    Handling connection for 3000
     ```
